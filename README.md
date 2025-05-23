@@ -23,6 +23,7 @@ The federated learning algorithm incorporates privacy protection mechanisms that
    ```
 
 2. **Signature Verification**
+
  When `default=False`, signature and verification operations are disabled
  When `default=True`, signature verification is performed on client parameters
 
