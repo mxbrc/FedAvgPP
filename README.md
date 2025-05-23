@@ -22,9 +22,9 @@ The federated learning algorithm incorporates privacy protection mechanisms that
                         help="Enable signing and verification for client parameters")
    ```
 
-​               **Signature Verification*
-​                When `default=False`, signature and verification operations are disabled
-​                When `default=True`, signature verification is performed on client parameters
+2. **Signature Verification**
+ When `default=False`, signature and verification operations are disabled
+ When `default=True`, signature verification is performed on client parameters
 
 ```python
  parser.add_argument('-sg', "--enable_signing", type=bool, default=False,
